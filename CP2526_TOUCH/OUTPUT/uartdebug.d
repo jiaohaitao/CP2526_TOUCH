@@ -1,0 +1,13 @@
+..\output\uartdebug.o: UartDebug.c
+..\output\uartdebug.o: uartdebug.h
+..\output\uartdebug.o: ..\CMSIS\stm32f10x.h
+..\output\uartdebug.o: ..\CMSIS\core_cm3.h
+..\output\uartdebug.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\uartdebug.o: ..\CMSIS\system_stm32f10x.h
+..\output\uartdebug.o: ..\USER\stm32f10x_conf.h
+..\output\uartdebug.o: ..\LIB\inc\stm32f10x_gpio.h
+..\output\uartdebug.o: ..\CMSIS\stm32f10x.h
+..\output\uartdebug.o: ..\LIB\inc\stm32f10x_rcc.h
+..\output\uartdebug.o: ..\LIB\inc\stm32f10x_tim.h
+..\output\uartdebug.o: ..\LIB\inc\stm32f10x_usart.h
+..\output\uartdebug.o: ..\LIB\inc\misc.h

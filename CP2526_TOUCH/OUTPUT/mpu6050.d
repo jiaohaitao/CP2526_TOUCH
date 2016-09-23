@@ -1,0 +1,15 @@
+..\output\mpu6050.o: mpu6050.c
+..\output\mpu6050.o: mpu6050.h
+..\output\mpu6050.o: ..\CMSIS\stm32f10x.h
+..\output\mpu6050.o: ..\CMSIS\core_cm3.h
+..\output\mpu6050.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\mpu6050.o: ..\CMSIS\system_stm32f10x.h
+..\output\mpu6050.o: ..\USER\stm32f10x_conf.h
+..\output\mpu6050.o: ..\LIB\inc\stm32f10x_gpio.h
+..\output\mpu6050.o: ..\CMSIS\stm32f10x.h
+..\output\mpu6050.o: ..\LIB\inc\stm32f10x_rcc.h
+..\output\mpu6050.o: ..\LIB\inc\stm32f10x_tim.h
+..\output\mpu6050.o: ..\LIB\inc\stm32f10x_usart.h
+..\output\mpu6050.o: ..\LIB\inc\misc.h
+..\output\mpu6050.o: mymath.h
+..\output\mpu6050.o: i2c_soft.h
