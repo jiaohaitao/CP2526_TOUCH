@@ -5,8 +5,9 @@
 ..\output\i2c_soft.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 ..\output\i2c_soft.o: ..\CMSIS\system_stm32f10x.h
 ..\output\i2c_soft.o: ..\USER\stm32f10x_conf.h
-..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_gpio.h
+..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_exti.h
 ..\output\i2c_soft.o: ..\CMSIS\stm32f10x.h
+..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_gpio.h
 ..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_rcc.h
 ..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_tim.h
 ..\output\i2c_soft.o: ..\LIB\inc\stm32f10x_usart.h

@@ -462,6 +462,11 @@
               <FileType>1</FileType>
               <FilePath>.\UartDebug.c</FilePath>
             </File>
+            <File>
+              <FileName>CP2526.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\CP2526.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

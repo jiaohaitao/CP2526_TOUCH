@@ -3,26 +3,27 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-E:\GitHub\F1_ANO_IMU\F1_ANO_IMU\USER\USART.uvproj
-Project File Date:  09/20/2016
+E:\GitHub\CP2526_TOUCH\CP2526_TOUCH\USER\USART.uvproj
+Project File Date:  09/23/2016
 
 <h2>Output:</h2>
 Build target 'jiao_stm32'
+compiling CP2526.c...
+cp2526.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+CP2526.c(9): warning:  #177-D: variable "j" was declared but never referenced
+        unsigned char tempbuf[12],i,j;
+CP2526.c(56): warning:  #1-D: last line of file ends without a newline
+  }
+CP2526.c(56): warning:  #940-D: missing return statement at end of non-void function "CP2526_Read"
+  }
+CP2526.c: 4 warnings, 0 errors
 linking...
-Program Size: Code=20760 RO-data=416 RW-data=1296 ZI-data=1520  
+Program Size: Code=10644 RO-data=336 RW-data=124 ZI-data=1028  
 FromELF: creating hex file...
-"..\OUTPUT\jiao_stm32.axf" - 0 Error(s), 0 Warning(s).
-</pre>
-</body>
-</html>
-int i=0;
-main.c: 2 warnings, 0 errors
-linking...
-Program Size: Code=20760 RO-data=416 RW-data=1296 ZI-data=1520  
-FromELF: creating hex file...
-"..\OUTPUT\jiao_stm32.axf" - 0 Error(s), 2 Warning(s).
+"..\OUTPUT\jiao_stm32.axf" - 0 Error(s), 4 Warning(s).
 Load "..\\OUTPUT\\jiao_stm32.axf" 
-Set JLink Project File to "E:\GitHub\F1_ANO_IMU\F1_ANO_IMU\USER\JLinkSettings.ini"
+Set JLink Project File to "E:\GitHub\CP2526_TOUCH\CP2526_TOUCH\USER\JLinkSettings.ini"
 * JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -55,3 +56,12 @@ Full Chip Erase Done.
 Programming Done.
 Verify OK.
 Application running ...
+.
+Programming Done.
+Verify OK.
+Application running ...
+t image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"..\OUTPUT\jiao_stm32.axf" - 1 Error(s), 10 Warning(s).
+Target not created

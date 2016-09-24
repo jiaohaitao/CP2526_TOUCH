@@ -1,0 +1,15 @@
+..\output\cp2526.o: CP2526.c
+..\output\cp2526.o: cp2526.h
+..\output\cp2526.o: ..\CMSIS\stm32f10x.h
+..\output\cp2526.o: ..\CMSIS\core_cm3.h
+..\output\cp2526.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\cp2526.o: ..\CMSIS\system_stm32f10x.h
+..\output\cp2526.o: ..\USER\stm32f10x_conf.h
+..\output\cp2526.o: ..\LIB\inc\stm32f10x_exti.h
+..\output\cp2526.o: ..\CMSIS\stm32f10x.h
+..\output\cp2526.o: ..\LIB\inc\stm32f10x_gpio.h
+..\output\cp2526.o: ..\LIB\inc\stm32f10x_rcc.h
+..\output\cp2526.o: ..\LIB\inc\stm32f10x_tim.h
+..\output\cp2526.o: ..\LIB\inc\stm32f10x_usart.h
+..\output\cp2526.o: ..\LIB\inc\misc.h
+..\output\cp2526.o: i2c_soft.h

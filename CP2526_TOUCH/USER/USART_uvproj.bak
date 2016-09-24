@@ -457,6 +457,11 @@
               <FileType>1</FileType>
               <FilePath>.\imu.c</FilePath>
             </File>
+            <File>
+              <FileName>UartDebug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\UartDebug.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
